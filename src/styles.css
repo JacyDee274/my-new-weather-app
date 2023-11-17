@@ -33,6 +33,12 @@ main {
 .weather-app-details {
   font-size: 16px;
   line-height: 20px;
+  color: #a9a9a9;
+}
+
+.values {
+  color: #f28c8c;
+  font-weight: bold;
 }
 
 footer {
@@ -61,4 +67,21 @@ footer {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
+}
+
+.weathertemp {
+  font-size: 78px;
+  font-weight: bold;
+  margin-left: 10px;
+
+}
+
+.weathericon {
+  font-size: 78px;
+
+}
+
+.weatherunit {
+  font-size: 28px;
+  padding-bottom: 20px;
 }
