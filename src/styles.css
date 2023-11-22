@@ -1,4 +1,5 @@
-.container {
+body {
+  background: #f9d5d5;
   font-family: "AR One Sans", sans-serif;
 }
 footer a {
@@ -80,7 +81,9 @@ footer {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
   text-align: center;
   color: #a9a9a9;
 }
